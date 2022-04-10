@@ -23,3 +23,5 @@ The other two features should be enabled automatically.
 If you installed the pdpy11 compiler correctly, the build script should work as is. If it doesn't, open the Sublime console via Ctrl-\` and check if any errors appear when you try to build a program.
 
 If it says anything along the lines of 'pdpy11: No such file or directory', this means you didn't set up PATH correctly. The pdpy11 README describes how this should be done. A robust way to check if everything is installed correctly is to try to run `pdpy11 -h` in the command prompt and see if it shows a help message or an error.
+
+If you have any problems with installing pdpy11 or the integration glue, please don't hesitate to contact me via [issues](https://github.com/pdpy11/sublime-plugin/issues).
