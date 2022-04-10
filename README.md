@@ -11,7 +11,7 @@ These utilities are:
 
 ## Installation
 
-To install the utilities, open the user packages directory of Sublime Text by clicking through `Preferences` -> `Browser Packages...` -> `User` subdirectory and putting the tree files there.
+To install the utilities, open the user packages directory of Sublime Text by clicking through `Preferences` -> `Browser Packages...` -> `User` subdirectory. Then extract the files (except README, of course) [from here](https://github.com/pdpy11/sublime-plugin/archive/refs/heads/master.zip) and put them to User.
 
 To switch to the custom color scheme, open the command panel via Ctrl-Shift-P, choose 'Select Color Scheme' and then 'PDPy11'. You can use the same method to switch to the previous color scheme too, if you don't like PDPy11.
 
