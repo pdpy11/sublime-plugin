@@ -16,3 +16,10 @@ To install the utilities, open the user packages directory of Sublime Text by cl
 To switch to the custom color scheme, open the command panel via Ctrl-Shift-P, choose 'Select Color Scheme' and then 'PDPy11'. You can use the same method to switch to the previous color scheme too, if you don't like PDPy11.
 
 The other two features should be enabled automatically.
+
+
+## Handling problems
+
+If you installed the pdpy11 compiler correctly, the build script should work as is. If it doesn't, open the Sublime console via Ctrl-\` and check if any errors appear when you try to build a program.
+
+If it says anything along the lines of 'pdpy11: No such file or directory', this means you didn't set up PATH correctly. The pdpy11 README describes how this should be done. A robust way to check if everything is installed correctly is to try to run `pdpy11 -h` in the command prompt and see if it shows a help message or an error.
